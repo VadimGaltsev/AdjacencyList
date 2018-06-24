@@ -9,12 +9,12 @@
 /Users/vadik/CLionProjects/Graphs/AdjacencyList.h
 cstring
 -
-vector
--
 Node.h
 /Users/vadik/CLionProjects/Graphs/Node.h
 
 /Users/vadik/CLionProjects/Graphs/Node.h
+AdjacencyList.h
+/Users/vadik/CLionProjects/Graphs/AdjacencyList.h
 
 /Users/vadik/CLionProjects/Graphs/main.cpp
 iostream

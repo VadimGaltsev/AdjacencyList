@@ -5,8 +5,9 @@
 #ifndef GRAPHS_NODE_H
 #define GRAPHS_NODE_H
 
-template <class D> class AdjacencyList;
+#include "AdjacencyList.h"
 
+template <class T> class AdjacencyList;
 template <class T>
 class Node {
     friend class AdjacencyList<T>;
