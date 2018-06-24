@@ -4,14 +4,16 @@
 
 #ifndef GRAPHS_NODE_H
 #define GRAPHS_NODE_H
-class AdjacencyList;
 
+template <class D> class AdjacencyList;
+
+template <class T>
 class Node {
-    friend class AdjacencyList;
-    Node * next;
+    friend class AdjacencyList<T>;
+    Node<T> * next;
 public:
-    int data;
-    Node(int data) : data(data) {
+    T data;
+    Node(T data) : data(data) {
         next = nullptr;
     }
 };

@@ -8,16 +8,16 @@
 #include <cstring>
 #include <vector>
 #include "Node.h"
-
+template <class T>
 class AdjacencyList {
 private:
-    Node ** arrayNode;
+    Node<T> ** arrayNode;
     int currentSize = 4;
-    Node ** newArrayBuffer;
+    Node<T> ** newArrayBuffer;
     int position = 0;
     void resize() {
-        newArrayBuffer = new Node * [currentSize * 2];
-        memcpy(newArrayBuffer, arrayNode, currentSize * sizeof(Node*));
+        newArrayBuffer = new Node<T> * [currentSize * 2];
+        memcpy(newArrayBuffer, arrayNode, currentSize * sizeof(Node<T>*));
         currentSize = currentSize * 2;
         delete[] arrayNode;
         arrayNode = newArrayBuffer;
@@ -25,12 +25,12 @@ private:
 public:
 
     AdjacencyList() {
-        arrayNode = new Node * [currentSize];
+        arrayNode = new Node<T> * [currentSize];
     }
     ~AdjacencyList() {
         delete [] newArrayBuffer;
     }
-    void insert(Node * node) {
+    void insert(Node<T> * node) {
         if ( position < currentSize) {
             arrayNode[position++] = node;
         } else {
@@ -38,14 +38,14 @@ public:
             arrayNode[position++] = node;
         }
     }
-    void insert(int position, Node * node) {
+    void insert(int position, Node<T> * node) {
         if (position < currentSize) {
-            Node * endNode = arrayNode[position];
+            Node<T> * endNode = arrayNode[position];
             endNode->next = node;
             arrayNode[position] = node;
         } else {
             resize();
-            Node * endNode = arrayNode[position];
+            Node<T> * endNode = arrayNode[position];
             endNode->next = node;
             arrayNode[position] = node;        }
     }
@@ -53,7 +53,7 @@ public:
         return position;
     }
 
-    Node& operator[](int position) {
+    Node<T>& operator[](int position) {
         return *arrayNode[position];
     };
 
