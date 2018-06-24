@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vadik/CLionProjects/Graphs/AdjacencyList.h
+cstring
+-
+vector
+-
+Node.h
+/Users/vadik/CLionProjects/Graphs/Node.h
+
+/Users/vadik/CLionProjects/Graphs/Node.h
+
+/Users/vadik/CLionProjects/Graphs/main.cpp
+iostream
+-
+AdjacencyList.h
+/Users/vadik/CLionProjects/Graphs/AdjacencyList.h
+
