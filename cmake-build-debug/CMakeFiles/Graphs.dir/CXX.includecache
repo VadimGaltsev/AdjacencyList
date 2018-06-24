@@ -19,6 +19,8 @@ AdjacencyList.h
 /Users/vadik/CLionProjects/Graphs/main.cpp
 iostream
 -
+vector
+-
 AdjacencyList.h
 /Users/vadik/CLionProjects/Graphs/AdjacencyList.h
 

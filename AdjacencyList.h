@@ -12,6 +12,7 @@
 template<class T>
 class AdjacencyList {
 private:
+
     Node<T> **arrayNode;
     int currentSize = 4;
     Node<T> **newArrayBuffer;
@@ -32,10 +33,6 @@ public:
     AdjacencyList() {
         arrayNode = new Node<T> *[currentSize];
         currentNode = nullptr;
-    }
-
-    ~AdjacencyList() {
-        delete[] newArrayBuffer;
     }
 
     void insert(Node<T> *node) {
@@ -77,8 +74,18 @@ public:
         }
         currentNode = arrayNode[position - enter];
         return *arrayNode[position - enter];
-
     };
+
+    ~AdjacencyList() {
+        for (int i = 0; i < this->size(); ++i) {
+            Node<T> * closeNode = &(this->operator[](i));
+            delete(closeNode);
+        }
+        if (newArrayBuffer != arrayNode) {
+            delete[] arrayNode;
+        }
+        delete[] newArrayBuffer;
+    }
 
 };
 
