@@ -39,27 +39,20 @@ public:
     }
 
     void insert(Node<T> *node) {
-        if (position < currentSize) {
-            arrayNode[position++] = node;
-        } else {
+        if (position == currentSize) {
             resize();
-            arrayNode[position++] = node;
         }
+        arrayNode[position++] = node;
     }
 
     void insert(int position, Node<T> *node) {
-        if (position < currentSize) {
-            Node<T> * endNode = arrayNode[position];
-            node->next = endNode;
-            arrayNode[position] = node;
-            nodePosition += 1;
-        } else {
+        if (position == currentSize) {
             resize();
-            Node<T> * endNode = arrayNode[position];
-            node->next = endNode;
-            arrayNode[position] = node;
-            nodePosition += 1;
         }
+        Node<T> * endNode = arrayNode[position];
+        node->next = endNode;
+        arrayNode[position] = node;
+        nodePosition += 1;
     }
 
     int size() const {
