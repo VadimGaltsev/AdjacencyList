@@ -83,9 +83,6 @@
 		<Unit filename="/Users/vadik/CLionProjects/Graphs/AdjacencyList.h">
 			<Option target="Graphs"/>
 		</Unit>
-		<Unit filename="/Users/vadik/CLionProjects/Graphs/Iteratable.h">
-			<Option target="Graphs"/>
-		</Unit>
 		<Unit filename="/Users/vadik/CLionProjects/Graphs/Node.h">
 			<Option target="Graphs"/>
 		</Unit>

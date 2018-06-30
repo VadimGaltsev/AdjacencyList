@@ -17,6 +17,9 @@ public:
     Node(T data) : data(data) {
         next = nullptr;
     }
+    bool operator < (const Node<T>& node2) const {
+            return data < node2.data;
+    }
 };
 
 

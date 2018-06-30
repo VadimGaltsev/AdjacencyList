@@ -17,9 +17,9 @@ private:
     int currentSize = 4;
     Node<T> **newArrayBuffer;
     int position = 0;
-    Node<T> * currentNode;
+    mutable Node<T> * currentNode;
     int nodePosition = 0;
-
+    mutable int enter = 0;
     void resize() {
         newArrayBuffer = new Node<T> *[currentSize * 2];
         memcpy(newArrayBuffer, arrayNode, currentSize * sizeof(Node<T> *));
@@ -33,6 +33,7 @@ public:
     AdjacencyList() {
         arrayNode = new Node<T> *[currentSize];
         currentNode = nullptr;
+        newArrayBuffer = nullptr;
     }
 
     void insert(Node<T> *node) {
@@ -56,34 +57,31 @@ public:
         return position + nodePosition;
     }
 
-    Node<T> &operator[](int position) {
-        static int enter = 0;
+    Node<T> &operator[](int position) const {
+        if (position == 0) enter = 0;
+        //TODO add search of needed position in list with ptr > array size
         if (currentNode != nullptr) {
             if (currentNode->next != nullptr) {
                 Node<T> *node = currentNode->next;
                 currentNode = currentNode->next;
                 ++enter;
+                if (position == size() - 1) {
+                    int buffer = enter;
+                    enter = 0;
+                    currentNode = nullptr;
+                }
                 return *node;
             }
-        }
-        if (position == size() - 1) {
-            int buffer = enter;
-            enter = 0;
-            currentNode = nullptr;
-            return *arrayNode[position - buffer];
         }
         currentNode = arrayNode[position - enter];
         return *arrayNode[position - enter];
     };
 
     ~AdjacencyList() {
-        for (int i = 0; i < this->size(); ++i) {
-            Node<T> * closeNode = &(this->operator[](i));
-            delete(closeNode);
-        }
         if (newArrayBuffer != arrayNode) {
             delete[] arrayNode;
         }
+        if (newArrayBuffer != nullptr)
         delete[] newArrayBuffer;
     }
 

@@ -14,9 +14,13 @@
     <list default="true" id="4b4cac99-d205-47f1-9a34-dd6df6e965da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdjacencyList.h" beforeDir="false" afterPath="$PROJECT_DIR$/AdjacencyList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iteratable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/Node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graphs" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Graphs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graphs.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Graphs.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -39,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="411">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -51,11 +55,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="set" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/set">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="649" column="68" lean-forward="true" selection-start-line="649" selection-start-column="68" selection-end-line="649" selection-end-column="68" />
+              <folding>
+                <element signature="e#30001#30089#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__functional_base" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/new">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2670">
+              <caret line="178" column="40" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="vector" pinned="false" current-in-tab="false">
         <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/vector">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="3343" lean-forward="true" selection-start-line="3343" selection-end-line="3343" />
+            <state relative-caret-position="9645">
+              <caret line="643" column="56" selection-start-line="643" selection-start-column="54" selection-end-line="643" selection-end-column="56" />
               <folding>
                 <element signature="e#11109#11115#0" expanded="true" />
                 <element signature="e#11333#11343#0" expanded="true" />
@@ -66,42 +100,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iterator" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iterator">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20880">
-              <caret line="1392" column="44" selection-start-line="1392" selection-start-column="44" selection-end-line="1392" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Iteratable.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Iteratable.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdjacencyList.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdjacencyList.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AdjacencyList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="431">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="e#105#123#0" expanded="true" />
-                <element signature="e#196#205#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/string.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -109,17 +115,43 @@
       <file leaf-file-name="Node.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#141#150#0" expanded="true" />
-                <element signature="e#158#167#0" expanded="true" />
+                <element signature="e#124#133#0" expanded="true" />
+                <element signature="e#164#173#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="__tree" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__tree">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="2136" selection-start-line="2136" selection-end-line="2136" />
+              <folding>
+                <element signature="e#50775#50787#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="type_traits" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="2220" selection-start-line="2220" selection-end-line="2220" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[]</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -159,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +202,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,35 +243,37 @@
       <workItem from="1529342160279" duration="8951000" />
       <workItem from="1529432398562" duration="2304000" />
       <workItem from="1529777115349" duration="1428000" />
-      <workItem from="1529844727751" duration="17627000" />
+      <workItem from="1529844727751" duration="23177000" />
+      <workItem from="1530366971280" duration="4422000" />
+      <workItem from="1530380227503" duration="1366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30310000" />
+    <option name="totallyTimeSpent" value="41648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2527646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2527646" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.3283582" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32879376" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32935324" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32935324" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40895522" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40895522" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,30 +286,142 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/AdjacencyList.h</url>
-          <line>79</line>
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/AdjacencyList.h</url>
-          <line>80</line>
-          <option name="timeStamp" value="137" />
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/AdjacencyList.h</url>
           <line>81</line>
-          <option name="timeStamp" value="138" />
+          <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/AdjacencyList.h</url>
-          <line>82</line>
-          <option name="timeStamp" value="139" />
+          <line>83</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/AdjacencyList.h</url>
+          <line>84</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/AdjacencyList.h</url>
+          <line>80</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Node.h</url>
+          <line>20</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Node.h</url>
+          <line>19</line>
+          <option name="timeStamp" value="242" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="145" />
+      <option name="time" value="243" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/new">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" column="40" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50145">
+          <caret line="3343" selection-start-line="3343" selection-end-line="3343" />
+          <folding>
+            <element signature="e#11109#11115#0" expanded="true" />
+            <element signature="e#11333#11343#0" expanded="true" />
+            <element signature="e#11683#11712#0" expanded="true" />
+            <element signature="e#109078#109107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iterator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20880">
+          <caret line="1392" column="44" selection-start-line="1392" selection-start-column="44" selection-end-line="1392" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdjacencyList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding>
+            <element signature="e#105#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#124#133#0" expanded="true" />
+            <element signature="e#164#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -313,16 +459,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Iteratable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Iteratable.h" />
+    <entry file="file://$PROJECT_DIR$/Node.cpp" />
     <entry file="file://$PROJECT_DIR$/Node.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -362,13 +500,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdjacencyList.h" />
-    <entry file="file://$PROJECT_DIR$/Iteratable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Iteratable.h" />
     <entry file="file://$PROJECT_DIR$/Graph.h" />
     <entry file="file://$PROJECT_DIR$/AdjacencyList.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -400,13 +532,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdjacencyList.h" />
-    <entry file="file://$PROJECT_DIR$/Iteratable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Iteratable.h" />
     <entry file="file://$PROJECT_DIR$/Graph.h" />
     <entry file="file://$PROJECT_DIR$/AdjacencyList.cpp" />
     <entry file="file://$PROJECT_DIR$/Graph.cpp" />
@@ -419,27 +545,90 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph.h" />
-    <entry file="file://$PROJECT_DIR$/Node.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.cpp" />
     <entry file="file:///usr/include/string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="1065">
           <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Iteratable.h">
+    <entry file="file://$PROJECT_DIR$/AdjacencyList.cpp" />
+    <entry file="file://$PROJECT_DIR$/A.cpp" />
+    <entry file="file://$PROJECT_DIR$/A.h" />
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/new">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="2670">
+          <caret line="178" column="40" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdjacencyList.cpp">
+    <entry file="file://$PROJECT_DIR$/Iteratable.h" />
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="810">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9645">
+          <caret line="643" column="56" selection-start-line="643" selection-start-column="54" selection-end-line="643" selection-end-column="56" />
+          <folding>
+            <element signature="e#11109#11115#0" expanded="true" />
+            <element signature="e#11333#11343#0" expanded="true" />
+            <element signature="e#11683#11712#0" expanded="true" />
+            <element signature="e#109078#109107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/set">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="649" column="68" lean-forward="true" selection-start-line="649" selection-start-column="68" selection-end-line="649" selection-end-column="68" />
+          <folding>
+            <element signature="e#30001#30089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#124#133#0" expanded="true" />
+            <element signature="e#164#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__tree">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="2136" selection-start-line="2136" selection-end-line="2136" />
+          <folding>
+            <element signature="e#50775#50787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="2220" selection-start-line="2220" selection-end-line="2220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -450,64 +639,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#90#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/vector">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="3343" lean-forward="true" selection-start-line="3343" selection-end-line="3343" />
-          <folding>
-            <element signature="e#11109#11115#0" expanded="true" />
-            <element signature="e#11333#11343#0" expanded="true" />
-            <element signature="e#11683#11712#0" expanded="true" />
-            <element signature="e#109078#109107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#141#150#0" expanded="true" />
-            <element signature="e#158#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdjacencyList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="431">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="e#105#123#0" expanded="true" />
-            <element signature="e#196#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
