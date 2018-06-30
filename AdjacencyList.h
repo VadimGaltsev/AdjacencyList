@@ -58,7 +58,10 @@ public:
     }
 
     Node<T> &operator[](int position) const {
-        if (position == 0) enter = 0;
+        if (position == 0) {
+            enter = 0;
+            currentNode = nullptr;
+        }
         //TODO add search of needed position in list with ptr > array size
         if (currentNode != nullptr) {
             if (currentNode->next != nullptr) {
