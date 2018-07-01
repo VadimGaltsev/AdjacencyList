@@ -18,6 +18,7 @@ private:
     Node<T> **newArrayBuffer;
     int position = 0;
     int nodePosition = 0;
+
     void resize() {
         newArrayBuffer = new Node<T> *[currentSize * 2];
         memcpy(newArrayBuffer, arrayNode, currentSize * sizeof(Node<T> *));
@@ -57,7 +58,7 @@ public:
     Node<T> &operator[](int position) const {
         int ptr = 0;
         Node<T>* current = nullptr;
-        if (position > size()) {
+        if (position >= size()) {
             throw ArraySizeException("List Index Out Of Bounds Exception");
         }
         for (int i = 0; i < this->position; ++i) {
