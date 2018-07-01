@@ -26,7 +26,6 @@ int main() {
     for (int i = 0; i < list.size(); ++i) {
         std::cout<< list[i].data << "\n";
     }
-
     deepSearch(list, node1);
     return 0;
 }

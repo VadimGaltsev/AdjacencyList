@@ -17,9 +17,7 @@ private:
     int currentSize = 4;
     Node<T> **newArrayBuffer;
     int position = 0;
-    mutable Node<T> * currentNode;
     int nodePosition = 0;
-    mutable int enter = 0;
     void resize() {
         newArrayBuffer = new Node<T> *[currentSize * 2];
         memcpy(newArrayBuffer, arrayNode, currentSize * sizeof(Node<T> *));
@@ -32,7 +30,6 @@ public:
 
     AdjacencyList() {
         arrayNode = new Node<T> *[currentSize];
-        currentNode = nullptr;
         newArrayBuffer = nullptr;
     }
 
@@ -58,26 +55,33 @@ public:
     }
 
     Node<T> &operator[](int position) const {
-        if (position == 0) {
-            enter = 0;
-            currentNode = nullptr;
+        int ptr = 0;
+        Node<T>* current = nullptr;
+        if (position > size()) {
+            throw ArraySizeException("List Index Out Of Bounds Exception");
         }
-        //TODO add search of needed position in list with ptr > array size
-        if (currentNode != nullptr) {
-            if (currentNode->next != nullptr) {
-                Node<T> *node = currentNode->next;
-                currentNode = currentNode->next;
-                ++enter;
-                if (position == size() - 1) {
-                    int buffer = enter;
-                    enter = 0;
-                    currentNode = nullptr;
-                }
-                return *node;
+        for (int i = 0; i < this->position; ++i) {
+            current = arrayNode[i];
+            Node<T>* current_in = current;
+            while (ptr < position && current_in != nullptr) {
+                current_in = current_in->next;
+                    ptr++;
+            }
+            if (ptr <= position && current_in != nullptr) {
+                current = current_in;
+                break;
             }
         }
-        currentNode = arrayNode[position - enter];
-        return *arrayNode[position - enter];
+        return *current;
+
+
+    };
+
+    class ArraySizeException {
+    public:
+        ArraySizeException(std::string d) {
+            std::cerr << d << "\n";
+        }
     };
 
     ~AdjacencyList() {
@@ -89,5 +93,27 @@ public:
     }
 
 };
+
+
+//        if (position == 0) {
+//            enter = 0;
+//            currentNode = nullptr;
+//        }
+//        //TODO add search of needed position in list with ptr > array size
+//        if (currentNode != nullptr) {
+//            if (currentNode->next != nullptr) {
+//                Node<T> *node = currentNode->next;
+//                currentNode = currentNode->next;
+//                ++enter;
+//                if (position == size() - 1) {
+//                    int buffer = enter;
+//                    enter = 0;
+//                    currentNode = nullptr;
+//                }
+//                return *node;
+//            }
+//        }
+//        currentNode = arrayNode[position - enter];
+//        return *arrayNode[position - enter];
 
 #endif //GRAPHS_ADJACENCYLIST_H
